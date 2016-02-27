@@ -16,7 +16,8 @@
 
 ### Install PlatformIO in a virtual env
 
-    $> pyenv virtualenv 2.7.11 arduino #platformio runs on python 2.x
+    $> pyenv install 2.7.11 arduino #platformio runs on python 2.x
+    $> pyenv virtualenv 2.7.11 arduino
     $> git clone git@github.com:xiaotian/arduino.git
     $> cd arduino
     $> pyenv local arduino
